@@ -6,13 +6,24 @@
 
   ==========*/
 
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import PostContent from "./components/PostContent";
+import SubmissionForm from "./components/SubmissionForm";
 
 import dummyData from "./utils/dummyData.json"; // Data import
 
 function App() {
+  const [literatureList, setLiteratureList] = useState(dummyData);
+
+  const handleFormSubmit = (newPost) => {
+    const newId = Math.max(...literatureList.map((l) => l.id)) + 1;
+    setLiteratureList([
+      ...literatureList,
+      { id: newId, comments: [], ...newPost },
+    ]);
+  };
+
   return (
     <div className="App">
       <h1>Literature</h1>
@@ -28,6 +39,7 @@ function App() {
           postType={literature.postType}
         />
       ))}
+      <SubmissionForm onSubmit={handleFormSubmit} />
     </div>
   );
 }
