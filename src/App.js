@@ -1,4 +1,6 @@
-// src/App.js
+/*==========
+  SRC/APP.JS
+  ==========*/
 import React from "react";
 import "./App.css";
 import Postcontent from "./components/Postcontent";
