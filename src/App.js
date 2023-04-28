@@ -1,9 +1,14 @@
 /*==========
-  SRC/APP.JS
+
+
+  APP.JS
+
+
   ==========*/
+
 import React from "react";
 import "./App.css";
-import Postcontent from "./components/Postcontent";
+import PostContent from "./components/PostContent";
 
 import dummyData from "./utils/dummyData.json"; // Data import
 
@@ -12,7 +17,7 @@ function App() {
     <div className="App">
       <h1>Literature</h1>
       {dummyData.map((literature) => (
-        <Postcontent
+        <PostContent
           key={literature.id}
           username={literature.username}
           postDate={literature.postDate}

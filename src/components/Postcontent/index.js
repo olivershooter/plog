@@ -1,6 +1,14 @@
+/*==========
+
+
+  POSTCONTENT.JS
+
+
+  ==========*/
+
 import React from "react";
 
-const Postcontent = ({
+const PostContent = ({
   username,
   postDate,
   author,
@@ -28,4 +36,4 @@ const Postcontent = ({
   );
 };
 
-export default Postcontent;
+export default PostContent;
