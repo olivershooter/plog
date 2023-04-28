@@ -48,6 +48,10 @@ code {
   margin-bottom: 10px;
 }
 
+.Story .content {
+  text-align: left;
+}
+
 .litrature .content {
   margin-bottom: 15px;
 }

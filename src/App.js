@@ -20,6 +20,7 @@ function App() {
           title={literature.title}
           content={literature.content}
           comments={literature.comments}
+          postType={literature.postType}
         />
       ))}
     </div>
