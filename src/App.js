@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+/*==========
+
+
+  APP.JS
+
+
+  ==========*/
+
+import React from "react";
+import "./App.css";
+import PostContent from "./components/PostContent";
+
+import dummyData from "./utils/dummyData.json"; // Data import
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Literature</h1>
+      {dummyData.map((literature) => (
+        <PostContent
+          key={literature.id}
+          username={literature.username}
+          postDate={literature.postDate}
+          author={literature.author}
+          title={literature.title}
+          content={literature.content}
+          comments={literature.comments}
+          postType={literature.postType}
+        />
+      ))}
     </div>
   );
 }

@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "username": "User1",
+    "postDate": "2023-04-28",
+    "author": "ChatGPT",
+    "content": [
+      "Once upon a time, in a small village nestled between the mountains and a dense forest, there lived a young girl named Lily. She was known for her vibrant red hair and her boundless curiosity. One day, while wandering the forest in search of a mysterious, glowing flower she had heard tales of from her grandmother, Lily stumbled upon a hidden cave obscured by thick vines and foliage. The cave entrance emitted a faint, otherworldly glow, drawing her in like a moth to a flame.",
+      "As Lily stepped into the cave, she was met with a sight beyond her wildest dreams: the cave walls were adorned with sparkling, bioluminescent crystals, illuminating a path that led to a small, magical garden. In the center of the garden, surrounded by glowing mushrooms and rare, colorful plants, was the elusive, radiant flower she had been searching for. The petals shimmered with all the colors of the rainbow, casting a mesmerizing light show throughout the cave. Overwhelmed with awe, Lily gently plucked the flower, eager to share her discovery with the villagers. Little did she know that this was only the beginning of her enchanting adventures."
+    ],
+    "comments": ["Comment1", "Comment2"],
+    "title": "Lily and the Cave",
+    "postType": "Story"
+  },
+  {
+    "id": 2,
+    "username": "User2",
+    "postDate": "2023-04-26",
+    "author": "ChatGPT",
+    "content": [
+      "Beneath the azure sky we roam, Through fields of green, a world unknown, With every step, our hearts take flight, As sunbeams kiss the earth, so bright.",
+
+      "In whispers, does the wind confide, The secrets of a world untied, A dance of leaves, a rustling sound, Nature's symphony, unbound.",
+
+      "A river's gentle, flowing grace, Reflects the sun's warm, shining face, As moments turn to memories, We cherish life's sweet melodies.",
+
+      "In harmony, our souls unite, Embracing nature's pure delight, And in this dance of love and cheer, The beauty of the world, we're near."
+    ],
+    "comments": ["Comment3", "Comment4"],
+    "title": "A poem to remember",
+    "postType": "Poem"
+  }
+]
