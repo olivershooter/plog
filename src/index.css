@@ -72,3 +72,16 @@ code {
   border: rgba(0, 0, 0, 0) 2px solid;
   transition: all 0.3s;
 }
+
+.SubmitPost {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 500px;
+}
+
+.SubmitPost label {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
