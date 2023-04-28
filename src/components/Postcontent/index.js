@@ -1,3 +1,11 @@
+/*==========
+
+
+  POSTCONTENT.JS
+
+
+  ==========*/
+
 import React from "react";
 
 const PostContent = ({

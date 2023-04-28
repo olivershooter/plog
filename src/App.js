@@ -1,6 +1,11 @@
 /*==========
-  SRC/APP.JS
+
+
+  APP.JS
+
+
   ==========*/
+
 import React from "react";
 import "./App.css";
 import PostContent from "./components/PostContent";
