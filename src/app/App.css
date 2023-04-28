@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.literature:before {
+  content: "";
+  background-image: url(https://www.tilingtextures.com/wp-content/uploads/2018/11/0066-512x512.jpg);
+  background-size: 300px;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.literature h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.literature p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.Story .content {
+  text-align: left;
+}
+
+.literature .content {
+  margin-bottom: 15px;
+}
+
+.literature button {
+  background-color: #ffffff00;
+  border: rgba(0, 0, 0, 0.834) 2px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 10px 15px;
+  transition: all 0.3s;
+}
+
+.literature button:hover {
+  background-color: rgba(0, 0, 0, 0.834);
+  color: rgb(220, 220, 220);
+  border: rgba(0, 0, 0, 0) 2px solid;
+  transition: all 0.3s;
+}

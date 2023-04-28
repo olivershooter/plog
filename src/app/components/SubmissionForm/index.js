@@ -50,7 +50,7 @@ const SubmissionForm = ({ onSubmit }) => {
   };
 
   return (
-    <form class="SubmitPost litrature" onSubmit={handleSubmit}>
+    <form class="SubmitPost literature" onSubmit={handleSubmit}>
       <label>
         Username:
         <input

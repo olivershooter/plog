@@ -1,0 +1,11 @@
+.literature {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  font-size: 1rem;
+  padding: 20px;
+  width: 60%;
+  margin: 20px auto;
+  position: relative;
+  min-height: 100px;
+  color: rgba(0, 0, 0, 0.834);
+}
