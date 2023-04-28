@@ -7,6 +7,7 @@
   ==========*/
 
 import React from "react";
+import "./index.css";
 
 const PostContent = ({
   username,
@@ -18,7 +19,7 @@ const PostContent = ({
   postType,
 }) => {
   return (
-    <div className={`litrature ${postType}`}>
+    <div className={`literature ${postType}`}>
       <h3>{username}</h3>
       <div className="title">{title}</div>
       <div className="content">

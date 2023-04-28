@@ -8,9 +8,9 @@
 
 import React from "react";
 import "./App.css";
-import PostContent from "./components/PostContent";
+import PostContent from "./components/PostContent/index.js";
 
-import dummyData from "./utils/dummyData.json"; // Data import
+import dummyData from "../utils/dummyData.json"; // Data import
 
 function App() {
   return (
