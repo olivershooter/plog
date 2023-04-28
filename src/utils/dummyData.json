@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "username": "User1",
+    "postDate": "2023-04-27",
+    "author": "Author1",
+    "content": [
+      "This is the first paragraph of the story.",
+      "This is the second paragraph of the story."
+    ],
+    "comments": ["Comment1", "Comment2"],
+    "title": "Story Time"
+  },
+  {
+    "id": 2,
+    "username": "User2",
+    "postDate": "2023-04-26",
+    "author": "Author2",
+    "content": [
+      "This is the first paragraph of the poem.",
+      "This is the second paragraph of the poem."
+    ],
+    "comments": ["Comment3", "Comment4"],
+    "title": "A poem to remember"
+  }
+]

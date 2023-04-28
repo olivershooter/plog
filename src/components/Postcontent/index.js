@@ -1,7 +1,6 @@
-// src/Litrature.js
 import React from "react";
 
-const Litrature = ({
+const Postcontent = ({
   username,
   postDate,
   author,
@@ -27,4 +26,4 @@ const Litrature = ({
   );
 };
 
-export default Litrature;
+export default Postcontent;
