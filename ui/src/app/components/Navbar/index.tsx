@@ -11,7 +11,7 @@ export const Navbar = () => {
         <StyledDiv>
           <StyledLink to="/">Home</StyledLink>
           <StyledLink to="/about">About</StyledLink>
-          <StyledLink to="/contact">Contact</StyledLink>
+          <StyledLink to="/mypage">My Page</StyledLink>
         </StyledDiv>
       </Toolbar>
     </AppBar>
@@ -31,10 +31,10 @@ const StyledDiv = styled('h2')({
 const StyledLink = styled(Link)({
   textDecoration: 'none',
   color: 'white',
-  fontSize: '10px',
+  fontSize: '30px',
   marginLeft: 20,
   '&:hover': {
-    color: 'green',
+    color: 'black',
     borderBottom: '1px solid white',
   },
 });
