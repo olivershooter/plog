@@ -1,17 +1,17 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { describe, it } from 'vitest';
-import { Contact } from '..';
+import { MyPage } from '..';
 
-describe('<Contact />', () => {
+describe('<MyPage />', () => {
   it('renders and matches the snapshot', () => {
-    const { asFragment } = render(<Contact />);
+    const { asFragment } = render(<MyPage />);
 
     expect(asFragment()).toMatchSnapshot();
   });
 
-  it('should contain the title contact', () => {
-    render(<Contact />);
+  it('should contain the title MyPage', () => {
+    render(<MyPage />);
 
     expect(screen.getByText('Contact')).toBeInTheDocument();
   });
