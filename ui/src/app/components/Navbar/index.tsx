@@ -34,7 +34,7 @@ const StyledLink = styled(Link)({
   fontSize: '10px',
   marginLeft: 20,
   '&:hover': {
-    color: 'green',
+    color: '#484848',
     borderBottom: '1px solid white',
   },
 });
