@@ -1,0 +1,33 @@
+.navCont {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.navLogoCont {
+  color: rgb(239, 239, 239);
+}
+
+.navLinkCont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navLink {
+  background-color: #ffffff00;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+.navLink:hover {
+  background-color: #ffffff1f;
+  color: #bcbcbc;
+  border-bottom: 1px solid white;
+  transition: all 0.3s ease-out;
+}

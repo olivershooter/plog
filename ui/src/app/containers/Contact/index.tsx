@@ -1,5 +1,9 @@
 import React from 'react';
 
 export const Contact = () => {
-  return <h1>Contact</h1>;
+  return (
+    <div className="Main">
+      <h1>Contact</h1>
+    </div>
+  );
 };
