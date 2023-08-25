@@ -1,9 +1,9 @@
 import React from 'react';
-import { styled, Grid, Typography, Link } from '@mui/material';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import { Grid, Link, styled, Typography } from '@mui/material';
 
-export const About = () => {
+const About = () => {
   return (
     <>
       <StyledContainer container>
@@ -145,6 +145,8 @@ export const About = () => {
     </>
   );
 };
+
+export default About;
 
 const StyledContainer = styled(Grid)({
   display: 'flex',

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Typography, Link, styled } from '@mui/material';
+import { Link, styled, Typography } from '@mui/material';
 
-export const CopyrightBanner = () => {
+const CopyrightBanner = () => {
   return (
     <StyledFooter>
       <Typography variant="body2" color="textSecondary" align="center" sx={{ color: 'white' }}>
@@ -15,9 +15,10 @@ export const CopyrightBanner = () => {
   );
 };
 
+export default CopyrightBanner;
+
 const StyledFooter = styled('div')({
   padding: '8px',
   width: '100%',
   backgroundColor: '#1976d2',
-  marginTop: 'auto',
 });

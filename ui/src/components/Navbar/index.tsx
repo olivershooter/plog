@@ -1,13 +1,16 @@
 import React from 'react';
-import { AppBar, CssBaseline, Toolbar, styled } from '@mui/material';
+import { AppBar, Avatar, CssBaseline, styled, Toolbar } from '@mui/material';
 import { Link } from 'react-router-dom';
 
-export const Navbar = () => {
+// eslint-disable-next-line no-restricted-imports
+import vitesvg from "../../assets/vite.svg";
+
+const Navbar = () => {
   return (
     <AppBar position="static">
       <CssBaseline />
       <Toolbar>
-        <StyledLogo>Navbar</StyledLogo>
+        <Avatar component={Link} to="/" src={vitesvg} sx={{marginLeft: 4, display: 'flex'}}/>
         <StyledDiv>
           <StyledLink to="/">Home</StyledLink>
           <StyledLink to="/about">About</StyledLink>
@@ -18,10 +21,7 @@ export const Navbar = () => {
   );
 };
 
-const StyledLogo = styled('div')({
-  marginLeft: 10,
-  display: 'flex',
-});
+export default Navbar;
 
 const StyledDiv = styled('h2')({
   flexGrow: 1,

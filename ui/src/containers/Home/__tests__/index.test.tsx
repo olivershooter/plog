@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { describe, it } from 'vitest';
-import { Home } from '..';
+import Home from '..';
 
 describe('<Home />', () => {
   it('renders and matches the snapshot', () => {
