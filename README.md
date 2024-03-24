@@ -1,3 +1,0 @@
-# Plog
-
-Stuff eventually here
