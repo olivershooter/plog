@@ -1,3 +1,1 @@
-# Plog
-
-Stuff eventually here
+Plog

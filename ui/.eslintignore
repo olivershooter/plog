@@ -1,12 +1,6 @@
-/dist
-*.scss
-*.css
-/node_modules
-/build
+node_modules/
+dist/
+.prettierrc.js
+.eslintrc.cjs
+env.d.ts
 vite.config.ts
-jest.setup.ts
-jest.config.js
-/test/__mocks__/fileMock.js
-commitlint.config.js
-/app/__tests__/*
-index.test.tsx
