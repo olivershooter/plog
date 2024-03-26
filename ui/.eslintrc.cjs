@@ -24,14 +24,6 @@ module.exports = {
     },
   },
   rules: {
-    // No relative imports
-    'no-restricted-imports': [
-      'error',
-      {
-        patterns: ['.*'],
-      },
-    ],
-
     // Enforces am import order
     'import/order': [
       'error',
