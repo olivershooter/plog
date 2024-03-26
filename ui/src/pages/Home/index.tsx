@@ -1,9 +1,17 @@
+import {styled} from "styled-components"
+
 const Home = () => {
   return (
-    <div>
+    <StyledDiv>
       This is an example of the <b>HOME</b> page
-    </div>
+    </StyledDiv>
   )
 }
+
+const StyledDiv = styled('div')({
+  color: 'pink',
+  padding: 100,
+})
+
 
 export default Home
