@@ -1,4 +1,4 @@
-import {styled} from "styled-components"
+import { styled } from 'styled-components'
 
 const Home = () => {
   return (
@@ -12,6 +12,5 @@ const StyledDiv = styled('div')({
   color: 'pink',
   padding: 100,
 })
-
 
 export default Home
