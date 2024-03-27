@@ -2,13 +2,13 @@ import { Link } from '@tanstack/react-router'
 import { styled } from 'styled-components'
 
 import Logo from '../../assets/react.svg'
+import globalStyleVars from '../../globalStyleVariables'
 
 const NavBar = () => {
   return (
     <TopBarWrapper>
-    <NavLogoWrapper>
-      <img alt='logo' src={Logo}/>
-      </NavLogoWrapper>
+    <NavWrapper>
+      <Link to="/"><img alt='logo' src={Logo}/></Link>
       <StyledNavBar>
         <NavBarLinksUl>
           <NavBarButton>
@@ -22,23 +22,28 @@ const NavBar = () => {
           </NavBarButton>
         </NavBarLinksUl>
       </StyledNavBar>
+      </NavWrapper>
     </TopBarWrapper>
   )
 }
 
-const TopBarWrapper = styled('div')({
+const TopBarWrapper = styled('header')({
   display: 'flex',
   alignItems: 'center',
   background: '#00000008',
   justifyContent: 'center',
 })
 
-const NavLogoWrapper = styled('div')({
+const NavWrapper = styled('div')({
+  maxWidth: globalStyleVars.maxPageWidth,
+  display: 'flex',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+  flexGrow: 1,
   })
 
 const StyledNavBar = styled('nav')({
   flexGrow: 1,
-  maxWidth: '1100px',
 })
 
 const NavBarLinksUl = styled('ul')({
